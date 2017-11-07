@@ -11,7 +11,7 @@ gem 'sqlite3'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
+  # gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -20,7 +20,7 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+# gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -37,12 +37,12 @@ gem 'jquery-rails'
 # To use debugger
 # gem 'debugger'
 group :development do
-	gem 'capistrano', '~> 3.6'
-  gem 'capistrano-rails', '~> 1.3'
-	gem 'capistrano-bundler', '~> 1.1', require: false
-	gem 'capistrano-rvm'
+	# gem 'capistrano', '~> 3.6'
+  # gem 'capistrano-rails', '~> 1.3'
+	# gem 'capistrano-bundler', '~> 1.1', require: false
+	# gem 'capistrano-rvm'
 end
-gem 'capistrano-passenger'
+# gem 'capistrano-passenger'
 gem 'rake', '~> 12.2.1'
 gem 'concurrent-ruby', '~>1.0.5'
 gem 'i18n', '~> 0.9.1'
@@ -66,7 +66,7 @@ gem 'actionmailer', '~>3.2.18'
 gem 'arel', '~>3.0.3'
 gem 'tzinfo', '~>0.3.53'
 gem 'activerecord', '~>3.2.18'
-gem 'activeresource' '~>3.2.18'
+# gem 'activeresource' '~>3.2.18'
 gem 'net-ssh', '~>4.2.0'
 gem 'net-scp', '~>1.2.1'
 gem 'sshkit', '~>1.15.0'
@@ -84,7 +84,7 @@ gem 'json', '~>1.8.6'
 gem 'rdoc', '~>3.12.2'
 gem 'thor', '~>0.20.0'
 gem 'railties', '~>3.2.18'
-gem 'coffee-rails', '~>3.2.2'
+# gem 'coffee-rails', '~>3.2.2'
 gem 'ffi', '~>1.9.18'
 gem 'jquery-rails', '~>3.1.4'
 gem 'rb-fsevent', '~>0.10.2'
